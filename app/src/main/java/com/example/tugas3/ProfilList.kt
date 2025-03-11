@@ -138,7 +138,7 @@ fun ProfilPreview() {
         R.string.alamat1,
         R.drawable.foto1
     )
-    Tugas3Theme {
+    Tugas3Theme{
         ProfilListItem(profil = profil)
     }
 }
