@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Tugas3</string>
+
+    <string name="nama1">Abid Falihaqil</string>
+    <string name="email1">Email :Helperbid1@gmail.com</string>
+    <string name="alamat1">Alamat :Jl Provinsi, Kartama, Marpoyan Damai</string>
+
+    <string name="nama2">Adjie Putra Ramdhani</string>
+    <string name="email2">Email :adjieramdhani4@gmail.com</string>
+    <string name="alamat2">Alamat :Jl. Beringin-Air Hitam, Gg. Ar-Rahman, Sungai Sibam, Tapung</string>
+
+    <string name="nama3">Aris Fadhila</string>
+    <string name="email3">Email :arisfadhila@gmail.com</string>
+    <string name="alamat3">Alamat :Jl.Manunggal, Rimbo Panjang</string>
+
+    <string name="nama4">Ela Melina</string>
+    <string name="email4">Email :elamelina7777@gmail.com</string>
+    <string name="alamat4">Alamat :Jl. Mawar, Simpang Baru, Tampan</string>
+
+    <string name="nama5">Farhan Arfazi</string>
+    <string name="email5">Email :farhanarfazi7@gmail.com</string>
+    <string name="alamat5">Alamat :Jl Cempaka, Gg Sekuntum No. 6</string>
+
+    <string name="nama6">Hairunisha</string>
+    <string name="email6">Email :hairunisha76@gmail.com</string>
+    <string name="alamat6">Alamat :Jl. Rimbo Panjang, Tambang</string>
+
+    <string name="nama7">Irvandi Ramadhan Abbas</string>
+    <string name="email7">Email :Vandigtg99@gmail.com</string>
+    <string name="alamat7">Alamat :Jl Rimbo Panjang, Gg Asta Karya, Tambang</string>
+
+    <string name="nama8">Muhammad Al Ghifary Afisha</string>
+    <string name="email8">Email :12350111885@students.uin-suska.ac.id</string>
+    <string name="alamat8">Alamat :Jl. Rimba Panjang, Pekanbaru-Bangkinang, Kabupaten Kampar, Riau 28468</string>
+
+    <string name="nama9">M. Qodratul Qudus</string>
+    <string name="email9">Email :mqudri2005@gmail.com</string>
+    <string name="alamat9">Alamat :Jl. Andalas, Sidomulyo Barat, Tampan</string>
+
+    <string name="nama10">Nadya Halliza</string>
+    <string name="email10">Email :nadyahalliza.9h@gmail.com</string>
+    <string name="alamat10">Alamat :Jl. Ahmad Dahlan, Tambusai, Rumbio Jaya, Kampar</string>
+
+    <string name="nama11">Naufal Affandi</string>
+    <string name="email11">Email :samuelsatria@gmail.com</string>
+    <string name="alamat11">Alamat :Jl. Garuda Sakti, Jln. Satria, Kel. Simpang Baru, Tampan</string>
+
+    <string name="nama12">Naya Nabila</string>
+    <string name="email12">Email :nayaanabila20@gmail.com</string>
+    <string name="alamat12">Alamat :Jl. Taman Karya, Perum. Permata Bunda 1, Tampan</string>
+
+    <string name="nama13">Nisha Rahmadini Syahda</string>
+    <string name="email13">Email :nishasyahda@gmail.com</string>
+    <string name="alamat13">Alamat :Jalan Kruing 2, Pandau Permai</string>
+
+    <string name="nama14">Noval Adiya Putra</string>
+    <string name="email14">Email :novaladiyaputra@gmail.com</string>
+    <string name="alamat14">Alamat :Jl. Sukakarya, Tuah Karya, Tampan</string>
+
+    <string name="nama15">Rafinaldi</string>
+    <string name="email15">Email :rafinaldi05@gmail.com</string>
+    <string name="alamat15">Alamat :Jl. Melur, Sidomulyo Barat, Tampan</string>
+
+    <string name="nama16">Rijan Ananta</string>
+    <string name="email16">Email :rijanananta09@gmail.com</string>
+    <string name="alamat16">Alamat :Jl. Garuda Sakti, Jln. Satria, Kel. Simpang Baru, Tampan</string>
+
+    <string name="nama17">Rizky Syakuur Rahman</string>
+    <string name="email17">Email :rizkysyakuurrahman18@gmail.com</string>
+    <string name="alamat17">Alamat :Jl. Sepakat, Garuda Sakti KM 1.5, Kel. Simpang Baru, Kec. Tampan, Prov. Riau, Sumatera, Indonesia, Asia Tenggara, Asia, Bumi, Alam Semesta, Hamba Allah</string>
+
+    <string name="nama18">Salsabillah Amalia Al Hadi</string>
+    <string name="email18">Email :Salsabillahamalia3@gmail.com</string>
+    <string name="alamat18">Alamat :Jl. Perumahan Vaishatamma, Jl. Anggrek No.11, RT.006/RW.016, Desa Rawang Air Putih, Kec. Tampan, Kota Pekanbaru, Riau 28293</string>
+
+    <string name="nama19">Tengku Ipo Rasya Abadi</string>
+    <string name="email19">Email :tengkuiporasya@gmail.com</string>
+    <string name="alamat19">Alamat :Jl. Suka Karya, Perumahan Laucih</string>
+</resources>
+
