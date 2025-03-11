@@ -17,6 +17,7 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.sizeIn
@@ -65,10 +66,10 @@ fun ProfilList(
         exit = fadeOut(),
         modifier = Modifier
     ) {
-        LazyColumn (contentPadding = contentPadding) {
-            itemsIndexed(Profils) {index, Profil ->
+        LazyColumn(contentPadding = contentPadding) {
+            itemsIndexed(Profils) { index, profil ->
                 ProfilListItem(
-                    Profil = Profil,
+                    profil = profil,
                     modifier = Modifier
                         .padding(horizontal = 16.dp, vertical = 8.dp)
                         .animateEnterExit(
@@ -77,7 +78,7 @@ fun ProfilList(
                                     stiffness = StiffnessVeryLow,
                                     dampingRatio = DampingRatioLowBouncy
                                 ),
-                                initialOffsetY = {it * (index + 1)}
+                                initialOffsetY = { it * (index + 1) }
                             )
                         )
                 )
@@ -88,46 +89,41 @@ fun ProfilList(
 
 @Composable
 fun ProfilListItem(
-    Profil: Profil,
+    profil: Profil,
     modifier: Modifier = Modifier
 ) {
     Card(
-        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
+        elevation = CardDefaults.cardElevation(defaultElevation = 4.dp),
+        modifier = modifier
     ) {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(16.dp)
-                .sizeIn(minHeight = 72.dp)
+                .sizeIn(minHeight = 100.dp)
         ) {
             Column(modifier = Modifier.weight(1f)) {
                 Text(
-                    text = stringResource(Profil.nameRes),
-                    style = MaterialTheme.typography.displaySmall
+                    text = stringResource(profil.nameRes),
+                    style = MaterialTheme.typography.titleMedium,
                 )
                 Text(
-                    text = stringResource(Profil.emailRes),
-                    style = MaterialTheme.typography.bodyLarge
+                    text = stringResource(profil.emailRes),
+                    style = MaterialTheme.typography.bodyMedium
                 )
                 Text(
-                    text = stringResource(Profil.alamatRes),
-                    style = MaterialTheme.typography.bodyLarge
+                    text = stringResource(profil.alamatRes),
+                    style = MaterialTheme.typography.bodyMedium
                 )
             }
             Spacer(Modifier.width(16.dp))
-            Box(
+            Image(
+                painter = painterResource(profil.imageRes),
+                contentDescription = null,
                 modifier = Modifier
-                    .size(72.dp)
+                    .size(80.dp)
                     .clip(RoundedCornerShape(8.dp))
-
-            ) {
-                Image(
-                    painter = painterResource(Profil.imageRes),
-                    contentDescription = null,
-                    alignment = Alignment.TopCenter,
-                    contentScale = ContentScale.FillWidth
-                )
-            }
+            )
         }
     }
 }
@@ -143,15 +139,15 @@ fun ProfilPreview() {
         R.drawable.foto1
     )
     Tugas3Theme {
-        ProfilListItem(Profil = profil)
+        ProfilListItem(profil = profil)
     }
 }
 
 @Preview("Profil List")
 @Composable
-fun ProfilsPreview(){
-    Tugas3Theme (darkTheme = false){
-        Surface (
+fun ProfilsPreview() {
+    Tugas3Theme(darkTheme = false) {
+        Surface(
             color = MaterialTheme.colorScheme.background
         ) {
             ProfilList(Profils = DataProfil.Profils)
