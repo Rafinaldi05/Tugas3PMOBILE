@@ -117,6 +117,12 @@ object DataProfil {
             emailRes = R.string.email19,
             alamatRes = R.string.alamat19,
             imageRes = R.drawable.foto19
+        ),
+        Profil(
+            nameRes= R.string.nama20,
+            emailRes = R.string.email20,
+            alamatRes = R.string.alamat20,
+            imageRes = R.drawable.foto20
         )
     )
 }
